@@ -1,0 +1,390 @@
+body {
+    padding: 0 64px 0 64px;
+    margin: 0;
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #FFFFFF;
+    overflow: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    height: 17px;
+}
+
+#home {
+    color: black;
+}
+
+.nav a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nonselected {
+    color: #19182580;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand p {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    width: 86px;
+    margin-left: 16px;
+}
+
+#login {
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 16px 32px 16px 32px;
+    width: 115px;
+    height: 49px;
+    font-weight: 700;
+}
+
+#signup {
+    border: none;
+    background-color: #5D50C6;
+    color: white;
+    padding: 16px 32px 16px 32px;
+    text-wrap: nowrap;
+    width: 115px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 30px;
+}
+
+.page1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 760px;
+    justify-content: space-between;
+}
+
+.description {
+    width: 40%;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description h2 {
+    font-size: 69px;
+    line-height: 90px;
+    margin: 0;
+}
+
+#bwPink {
+    display: inline;
+    color: #e6689e;
+}
+
+.description>p {
+    font-weight: 300;
+    color: grey;
+}
+
+.getStarted {
+    background-color: #5D50C6;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    line-height: 16.8px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 141px;
+    height: 49px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.375);
+}
+
+.btn {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.watchDemo {
+    background-color: white;
+    border: none;
+    line-height: 16.8px;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.main-img img {
+    padding-left: 80px;
+}
+
+.sponsers {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.destination {
+    width: 100%;
+}
+
+.desHead {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 60px 0;
+}
+
+.desHead h3 {
+    color: #e6689e;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.desHead h4 {
+    font-size: 44px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.navbtn {
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+}
+
+.left {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.457);
+    font-size: 20px;
+}
+
+.right {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #5D50C6;
+    color: white;
+    font-size: 20px;
+}
+
+.card {
+    width: 373.33px;
+    height: 575px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.379);
+    border-radius: 25px;
+    margin-bottom: 80px;
+}
+
+.info {
+    padding: 0 32px 0 32px;
+}
+
+.infohead {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+#loc {
+    font-weight: 100;
+}
+
+.rating {
+    display: flex;
+}
+
+.rating p {
+    color: #FF5722;
+    font-size: 23px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.desFoot {
+    width: 560px;
+    height: 300px;
+    line-height: 36.8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutBrand {
+    color: #19182580;
+}
+
+.social {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lists {
+    height: 211px;
+    width: 165.33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lists h5 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.lists p {
+    color: #191825BF;
+}
+
+@media(min-width:510px) {
+    .lists i {
+        display: none;
+    }
+
+    #mobileDrop {
+        display: none;
+    }
+}
+
+@media(max-width:510px) {
+    body {
+        padding: 0 16px 0 16px;
+    }
+
+    .page1 {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 833px;
+    }
+
+    .main-img img {
+        width: 380px;
+        padding-left: 40px;
+        padding-top: 40px
+    }
+
+    .footer {
+        flex-direction: column;
+        height: 554px;
+    }
+
+    .lists p {
+        display: none;
+    }
+
+    .lists h5 {
+        margin: 0;
+    }
+
+    .footNav {
+        display: block;
+    }
+
+    .lists {
+        height: 28px;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    #login {
+        display: none;
+    }
+
+    #signup {
+        display: none;
+    }
+
+    .cards {
+        justify-content: center;
+    }
+
+    .description h2 {
+        font-size: 40px;
+        text-align: center;
+        line-height: 48px;
+    }
+
+    .description {
+        width: 100%;
+        height: 350px;
+    }
+
+    .description>p {
+        text-align: center;
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn button {
+        width: 100%;
+    }
+
+    .sponsers {
+        justify-content: center;
+        padding: 40px 0 40px 0;
+    }
+
+    .sponsers img {
+        padding: 0 20px 30px 20px;
+    }
+
+    .desHead {
+        flex-direction: column;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+}
