@@ -7,6 +7,7 @@ body {
     overflow: auto;
 }
 
+/* nav bar */
 .navbar {
     display: flex;
     align-items: center;
@@ -20,31 +21,15 @@ body {
     height: 17px;
 }
 
-#home {
-    color: black;
-}
-
 .nav a {
     text-decoration: none;
     font-weight: 700;
-}
-
-.nonselected {
     color: #19182580;
 }
 
-.brand {
-    display: flex;
-    align-items: center;
-}
-
-.brand p {
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 40px;
-    height: 40px;
-    width: 86px;
-    margin-left: 16px;
+.nonselected:hover {
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
 }
 
 #login {
@@ -70,6 +55,7 @@ body {
     border-radius: 30px;
 }
 
+/* middle part */
 .page1 {
     display: flex;
     align-items: center;
@@ -135,6 +121,7 @@ body {
     padding-left: 80px;
 }
 
+/* suggestion part*/
 .sponsers {
     width: 100%;
     height: 160px;
@@ -198,12 +185,25 @@ body {
     font-size: 20px;
 }
 
+.left,
+.right:hover {
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s ease-in-out;
+}
+
 .card {
-    width: 373.33px;
+    width: 345px;
     height: 575px;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.379);
     border-radius: 25px;
     margin-bottom: 80px;
+}
+
+.card:hover {
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s ease-in-out;
 }
 
 .info {
@@ -236,6 +236,7 @@ body {
     flex-wrap: wrap;
 }
 
+/* footer part */
 .footer {
     width: 100%;
     display: flex;
@@ -249,6 +250,21 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand p {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    width: 86px;
+    margin-left: 16px;
 }
 
 .aboutBrand {
@@ -385,6 +401,5 @@ body {
         text-align: center;
         font-size: 16px;
     }
-
 
 }
